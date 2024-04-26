@@ -3,7 +3,7 @@ FROM ${BUILD_FROM} as builder
 
 
 
-RUN wget https://github.com/Dominic7/rtl_433/blob/master/examples/rtl_433_mqtt_hass.py -O rtl_433_mqtt_hass.py
+RUN wget https://raw.githubusercontent.com/Dominic7/rtl_433/master/examples/rtl_433_mqtt_hass.py -O rtl_433_mqtt_hass.py
 
 FROM ${BUILD_FROM}
 
